@@ -1,0 +1,328 @@
+body{
+    width:1024px;
+    font-size: 36px;
+    font-family: 'Armata', sans-serif;
+	background: url(../images/pt-2.png);
+	color: #eee;
+	text-shadow: 1px 1px 2px #000;
+}
+#impress{
+    left:45% !important;
+}
+#start{
+    text-align:center;
+    width:1600px;
+    height: 800px;
+    background-image: url(../images/hacker7.jpeg);
+}
+.title{
+    font-size: 150px;
+}
+.titleStartWord{
+    font-size: 250px;
+}
+.opacityWord{
+    opacity: 0.2;
+}
+.marginWord{
+    margin-top: 120px;
+}
+.smartWord{
+    font-size: 30px;
+}
+.bigWord{
+    font-size: 50px;
+}
+#xbrainStruct{
+    padding-top: 20px;
+    margin-left: 5px;
+    margin-right: 25px;
+    text-align: center;
+    width: 430px;
+    height: 550px;
+    background-color: rgb(21,22,23);
+    border-radius: 40px;
+    border-style:solid;
+    border-color:rgb(83,87,88);
+}
+#cv{
+    font-size: 25px;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 330px;
+    height: 120px;
+    background-color: rgb(24,123,222);
+    border-radius: 20px;
+}
+#ml{
+    font-size: 25px;
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 330px;
+    height: 120px;
+    background-color: rgb(121,206,50);
+    border-radius: 20px;
+}
+#uxexampleSlide{
+    white-space: nowrap;
+}
+#xbrainStructSlide{
+    padding-left: 200px;
+    white-space: nowrap;
+    width: 1300px;
+}
+.widthSlide{
+    width: 1200px;
+}
+#cvCutSlide{
+    text-align: center;
+}
+.alignCenter{
+    text-align: center;
+}
+.UXExampleImage{
+    width: 380px;
+    transition: 2s;
+}
+.smartImage{
+    width: 250px;
+}
+.noVisiable{
+    visibility: hidden;
+}
+.wordMargin{
+    margin-top: 50px;
+}
+.arrayImage{
+    width: 100px;
+    margin-top: 150px;
+    margin-left: 35px;
+}
+.rightArrayImage{
+    width: 100px;
+    margin-top: 150px;
+    margin-left: 0px;
+}
+#cutImage{
+    width: 320px;
+}
+.widthImage{
+    width: 1200px;
+}
+.searchBarImage{
+    width: 350px;
+    margin-top: 45px;
+    margin-left: 70px;
+}
+.noWrapDiv{
+    float: left;
+}
+
+.featureImage{
+    background-repeat: no-repeat;
+    animation: imageSwitch 2s forwards ease-in-out alternate infinite;
+}
+#featureImageTitle{
+    margin-top: 20px;
+}
+@keyframes imageSwitch{
+    0{
+        background:url("../images/tabbar/tabbar-0.png");
+    }
+    25%{
+        background:url("../images/tabbar/tabbar-1.png");
+    }
+    50%{
+        background:url("../images/tabbar/tabbar-2.png");
+    }
+    75%{
+        background:url("../images/tabbar/tabbar-3.png");
+    }
+    100%{
+        background:url("../images/tabbar/tabbar-4.png");
+    }
+}
+
+.yqPath{
+    stroke-dasharray:1000;
+    stroke-dashoffset:1000;
+    animation:dashkey 2s forwards ease-in-out alternate;
+}
+.jsPath{
+    stroke-dasharray:1000;
+    stroke-dashoffset:1000;
+    animation:2s 1s dashkey forwards  ease-in-out alternate;
+}
+.cqPath{
+    stroke-dasharray:1000;
+    stroke-dashoffset:1000;
+    animation:2s 2s dashkey forwards  ease-in-out alternate;
+}
+.jsPath2{
+    stroke-dasharray:1000;
+    stroke-dashoffset:1000;
+    animation:2s 3s dashkey forwards  ease-in-out alternate;
+}
+.ysPath{
+    stroke-dasharray:1000;
+    stroke-dashoffset:1000;
+    animation:2s 4s dashkey forwards  ease-in-out alternate;        
+}
+@keyframes dashkey{
+    from{
+        stroke-dashoffset:1000;
+    }
+    to{
+        stroke-dashoffset:0;
+    }
+}
+
+
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.2;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+}
+
+.terminal div{
+    margin-bottom: 10px;    
+}
+
+.terminal-output, .cmd{
+    font-size: 2em !important;
+}
+
+
+
+.impress-enabled .step.active { opacity: 1 }
+.footnote{
+    margin-top:50px;
+}
+
+
+/*
+    ... so we define display to `inline-block` to enable transforms and
+    transition duration to 0.5s ...
+*/
+#ing b {
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+/*
+    ... and we want 'positioning` word to move up a bit when the step gets
+    `present` class ...
+*/
+#ing.present .positioning {
+    -webkit-transform: translateY(-10px);
+    -moz-transform:    translateY(-10px);
+    -ms-transform:     translateY(-10px);
+    -o-transform:      translateY(-10px);
+    transform:         translateY(-10px);
+}
+
+/*
+    ... 'rotating' to rotate a quarter of a second later ...
+*/
+#ing.present .rotating {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform:    rotate(-10deg);
+    -ms-transform:     rotate(-10deg);
+    -o-transform:      rotate(-10deg);
+    transform:         rotate(-10deg);
+
+    -webkit-transition-delay: 0.25s;
+    -moz-transition-delay:    0.25s;
+    -ms-transition-delay:     0.25s;
+    -o-transition-delay:      0.25s;
+    transition-delay:         0.25s;
+}
+
+/*
+    ... and 'scaling' to scale down after another quarter of a second.
+*/
+#ing.present .scaling {
+    -webkit-transform: scale(0.7);
+    -moz-transform:    scale(0.7);
+    -ms-transform:     scale(0.7);
+    -o-transform:      scale(0.7);
+    transform:         scale(0.7);
+
+    -webkit-transition-delay: 0.5s;
+    -moz-transition-delay:    0.5s;
+    -ms-transition-delay:     0.5s;
+    -o-transition-delay:      0.5s;
+    transition-delay:         0.5s;
+}
+
+
+#slide1{
+    text-align:center;
+    width:1024px;
+    
+}
+#slide2{
+    text-align:center;
+    width:1024px;
+   
+}
+
+.step{
+    width:1024px;
+}
+
+#slide7{
+    width:400px;
+}
+#slide8{
+    width:400px;
+}
+#slide9{
+    width:400px;
+}
+
+.hint_text{
+	margin-top: 120px;
+    font-size:30px;
+    background-color:#282a2f;
+    padding:15px;
+	border: 1px solid #484d52;
+	border-radius: 5px;
+	font-size: 18px;
+	
+}
+
+.fallback-message {
+   	color: #eee;
+    line-height: 1.3;
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+    border: 1px solid #E4C652;
+    border-radius: 10px;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+em{
+	font-style: normal;
+	border-bottom: 1px solid #484d52;
+	padding-bottom: 2px;
+	color: #d5a830;
+}
