@@ -1,17 +1,49 @@
-# Setup
-title:        Navy Xie
-tagline:      Too much agreement kills the chat.   --John Jay Chapman
-baseurl:      ""
-paginate:     1
+# Basic
+title: Navy Xie的博客
+subtitle: 目前从事AI相关的研究和开发, 精通iOS开发
+welcome_message: 欢迎来到我的技术博客
+description: 记录工作和学习的一些心得
+creator: <a href="https://navy-xie.github.io">Navy Xie</a>
 
-# About/contact
-author:
-  name:       Navy Xie
-  url:        http://navy-xie.github.io
+url: "https://navy-xie.github.io"
 
-# Gems
-gems:
-  - jekyll-paginate
+permalink: /:year/:month/:title/
 
-#Others
-markdown: kramdown
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: blue
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客
+    description: 博客
+
+# Navigation buttons in the front page.
+nav:
+    # - {title: 成长, description: 成长历程, url: 'growup'}
+    # - {title: 简历, description: 简历, url: 'resume'}
+    # - {title: 关于, description: 关于, url: 'about'}
+    # - {title: 项目, description: 项目, url: ''}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: vno-jekyll
+    # duoshuo:
+
+# Social
+social:
+    github: navy-xie
+    mail: navy.xie@qq.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host

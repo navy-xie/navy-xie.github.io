@@ -1,18 +1,26 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  
+<html>
+
   {% include head.html %}
 
   <body>
-    {% include page-header.html %}
 
-    <section class="main-content">
-      
-      {{ content }}
+    <span class="mobile btn-mobile-menu">
+        <i class="fa fa-list btn-mobile-menu__icon"></i>
+        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+    </span>
+    
+    {% include side-panel.html %}
 
-      {% include page-footer.html %}
-
-    </section>
-
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            {{ content }}
+            {% include footer.html %}
+        </div>
+    </div>
+    
+    {% include external.html %}
+    
   </body>
+
 </html>
