@@ -1,8 +1,8 @@
 # Basic
-title: Navy Xie的博客
-subtitle: 目前从事AI相关的研究和开发, 精通iOS开发
-welcome_message: 欢迎来到我的技术博客
-description: 记录工作和学习的一些心得
+title: Navy Xie's Blog
+subtitle: Full-stack developer, experienced on iOS development, currently researching in AI area
+welcome_message: Welcome to my blog
+description: 
 creator: <a href="https://navy-xie.github.io">Navy Xie</a>
 
 url: "https://navy-xie.github.io"
@@ -17,8 +17,8 @@ cover_color: blue
 
 # The blog button should not be removed.
 blog_button:
-    title: 博客
-    description: 博客
+    title: Blog
+    description: Blog
 
 # Navigation buttons in the front page.
 nav:
