@@ -1,1 +1,1 @@
-Navy Xie's blog
+# [Navy Xie's blog](https://navy-xie.github.io)
