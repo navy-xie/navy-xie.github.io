@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to Big Data - Week 2
-date: 2018-04-16 20:00:00
+date: 2018-04-15 20:30:00
 tags: Big Data
 ---
 
