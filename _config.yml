@@ -1,11 +1,11 @@
 # Basic
 title: Navy Xie's Blog
 subtitle: Yesterday is history, tomorrow is a mystery, but today is a gift. That's why it's called the present.
-welcome_message: Welcome to my blog
-description: Full-stack developer, experienced on iOS development, currently researching in AI area
+welcome_message: Welcome to my blog.
+description: A full-stack developer, currently researching in AI areas.
 creator: <a href="https://www.navyxie.cn">Navy Xie</a>
 
-url: "https://www.navyxie.cn"
+url: "http://www.navyxie.cn"
 
 permalink: /:year/:month/:title/
 
