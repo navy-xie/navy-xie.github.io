@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Liftlong Learning
+title: 终身学习
 date: 2018-04-20 20:00:00
 tags: Learning
 ---
