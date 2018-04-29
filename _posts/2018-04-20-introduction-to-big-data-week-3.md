@@ -53,7 +53,9 @@ David是美国70-80年代有名的音乐人，从图片中可以看到浓浓的
 
 ### Getting Started with Hadoop
 
-#### Map-Reduce
+#### MapReduce
+
+![MapReduce](/assets/images/introduction-to-big-data/map-reduce.png "MapReduce")
 
 >Map-Reduce is a scalable programming model that simplifies distributed processing of data.
 It consists of three main steps: Mapping, Shuffling and Reducing. An easy way to think about a Map-Reduce job is to compare it with act of 'delegating' a large task to a group of people, and then combining the result of each person's effort, to produce the final outcome.
@@ -64,6 +66,24 @@ It consists of three main steps: Mapping, Shuffling and Reducing. An easy way to
 #### Hadoop ecosystem
 
 ![Hadoop ecosystem](/assets/images/introduction-to-big-data/hadoop-ecosystem.png "Hadoop Ecosystem")
+
+- HDFS: scalable storage, fault tolerance
+- YARN: flexible scheduling and resource management. YARN schedules jobs on 40,000+ servers at Yahoo
+- MapReduce: simplified programming model, Map->apply(), Reduce->summarize(). Google used MapReduce for indexing web sites.
+- Pig: dataflow scripting. Created at Yahoo.
+- Hive: SQL-like queries. Created at Facebook.
+- Giraph: used by Facebook to analyze social graphs
+- Storm, Spark, Flink: real-time and in-memory processing
+- HBase, Cassandra, MongoDB: NoSQL for non-files, key-values, sparse tables. HBase used for Facebook's Messaging Platform
+- Zookeeper: created by Yahoo to wrangle services named after animals, for management, synchronization, high-avilability, configuration
+
+#### YARN
+
+![YARN](/assets/images/introduction-to-big-data/yarn.png "YARN")
+
+#### When to reconsider Hadoop?
+
+![Reconsider Hadoop](/assets/images/introduction-to-big-data/reconsider-hadoop.png "Reconsider Hadoop")
 
 ### Quiz
 
@@ -81,4 +101,29 @@ It consists of three main steps: Mapping, Shuffling and Reducing. An easy way to
     C. Data-parallel job restart
     D. System wide restart
 
+**What are the two key components of HDFS and what are they used ofr? (B)**
+    
+    A. FASTA for genome sequence and Rasters for geospatial data.
+    B. NameNode for metadat and DataNode for block storage.
+    C. NameNode for block storage and DataNode for metadata.
 
+**What is the job of the NameNode? (A)**
+
+    A. Coordinate operations and assigns tasks to Data Nodes
+    B. Listens from DataNode for block creation, deletion, and replication
+    C. For gene sequencing calculations
+
+**As covered in the slides, which of the following are the major goals of Hadoop? (A, B, D, E, F)**
+
+    A. Handle Fault Tolerance
+    B. Facilitate a Shared Environment
+    C. Latency Sensitive Tasks
+    D. Optimized for a Variety of Data Types
+    E. Provide Value for Data
+    F. Enable Scalability
+
+### Assignment: Understand by Doing: MapReduce
+
+Your job is to perform the steps of MapReduce to calculate a count of the number of squares, stars, circles, hearts and triangles in the dataset shown in the picture above. You should follow the steps of MapReduce as they were explained in [this video](https://www.coursera.org/learn/big-data-introduction/lecture/pL4NH/mapreduce-simple-programming-for-big-results).
+
+![MapReduce Assignment](/assets/images/introduction-to-big-data/map-reduce-assignment.jpg "MapReduce Assignment")
