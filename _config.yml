@@ -1,8 +1,8 @@
 # Basic
-title: Navy Xie's Blog
-subtitle: Yesterday is history, tomorrow is a mystery, but today is a gift. That's why it's called the present.
+title: Navy Xie
+subtitle: 
 welcome_message: Welcome to my blog.
-description: A full-stack developer, currently researching in AI areas.
+description: A full-stack programmer.
 creator: <a href="https://www.navyxie.cn">Navy Xie</a>
 
 url: "http://www.navyxie.cn"
@@ -22,11 +22,8 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    # - {title: 成长, description: 成长历程, url: 'growup'}
-    # - {title: 简历, description: 简历, url: 'resume'}
-    # - {title: 关于, description: 关于, url: 'about'}
-    # - {title: 项目, description: 项目, url: ''}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
+    - {title: About, description: About, url: 'about'}
+    - {title: LinkedIn, description: LinkedIn, url: 'https://www.linkedin.com/in/navyxie-ai'}
 
 # Pagination
 plugins: [jekyll-paginate]
