@@ -18,7 +18,7 @@ tags: Big Data
 
 这里提到一部1977年的影片，讲述了how powers of ten scale in the universe。其中讲述方式令人印象深刻，只是影片放在youtube上。[https://www.youtube.com/watch?v=0fKBhvDjuy0](https://www.youtube.com/watch?v=0fKBhvDjuy0)
 
-Powers of Ten takes us on an adventure in magnitudes.  Starting at a picnic by the lakeside in Chicago, this famous film transports us to the outer edges of the universe.  Every ten seconds we view the starting point from ten times farther out until our own galaxy is visible only a s a speck of light among many others.  Returning to Earth with breathtaking speed, we move inward- into the hand of the sleeping picnicker- with ten times more magnification every ten seconds. Our journey ends inside a proton of a carbon atom within a DNA molecule in a white blood cell.  POWERS OF TEN   © 1977 EAMES OFFICE LLC (Available at www.eamesoffice.com)
+>Powers of Ten takes us on an adventure in magnitudes.  Starting at a picnic by the lakeside in Chicago, this famous film transports us to the outer edges of the universe.  Every ten seconds we view the starting point from ten times farther out until our own galaxy is visible only a s a speck of light among many others.  Returning to Earth with breathtaking speed, we move inward- into the hand of the sleeping picnicker- with ten times more magnification every ten seconds. Our journey ends inside a proton of a carbon atom within a DNA molecule in a white blood cell.  POWERS OF TEN   © 1977 EAMES OFFICE LLC (Available at www.eamesoffice.com)
 
 还有，big data的一个 "small" 定义："Big Data" is often used to refer to any datasets that is difficult to manage using traditional database system.
 

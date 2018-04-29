@@ -36,7 +36,8 @@ Namely,
 * Redundant data storage
 * Data-parallel job restart
 
-#### Quote
+
+### Quote
 
 在讲Foundation重要的原因时，Dr. Ilkay提到了David Allan的名言：
 
@@ -52,7 +53,17 @@ David是美国70-80年代有名的音乐人，从图片中可以看到浓浓的
 
 ### Getting Started with Hadoop
 
+#### Map-Reduce
 
+>Map-Reduce is a scalable programming model that simplifies distributed processing of data.
+It consists of three main steps: Mapping, Shuffling and Reducing. An easy way to think about a Map-Reduce job is to compare it with act of 'delegating' a large task to a group of people, and then combining the result of each person's effort, to produce the final outcome.
+
+一个典型的例子是，大家一起做意大利面调味汁（Pasta Sauce）。Source: [https://words.sdsc.edu/words-data-science/mapreduce](https://words.sdsc.edu/words-data-science/mapreduce)
+当然，如果对中国人介绍这个例子，可以考虑换成做火锅，可能接地气 ：）
+
+#### Hadoop ecosystem
+
+![Hadoop ecosystem](/assets/images/introduction-to-big-data/hadoop-ecosystem.png "Hadoop Ecosystem")
 
 ### Quiz
 
