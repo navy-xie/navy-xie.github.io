@@ -30,7 +30,7 @@ Stanford教授 **Andrew Ng** 是创始人之一，其特点是，课程主要由
 
 作业的设计也很有学问，不能太难，Andrew Ng的另一门课，我感觉作业真的比较难，我几乎是坚持不下去了。但也不能太容易，否则没什么效果。最好呢，还要有趣。该专题比较新，选的一些项目作为作业，比如人脸识别等，做起来比较有趣。
 
-Andrew Ng的另一门课，[Machine Learning](https://www.coursera.org/learn/machine-learning)，从ML的基础讲起，如果你时间允许，并把ML作为你将来3-5年的工作和学习方向，那我建议一定要学这门课。11周，量很大，作业也比较难，编程语言是Matlab，能结业的不多，据我观察，应该不会高于1%，因为我身边的同事和朋友很多都学过这门课，能学完的，目前为止我还没听说有一人，除了我自己。（如果你学完了，告诉我，我一定会祝贺你：）
+Andrew Ng的另一门课，[Machine Learning](https://www.coursera.org/learn/machine-learning)，从ML的基础讲起，如果你时间允许，并把ML作为你将来3-5年的工作和学习方向，那我建议一定要学这门课。11周，量很大，作业也比较难，编程语言是Matlab，能结业的不多，据我观察，应该不会高于1%，因为我身边的同事和朋友很多都学过这门课，能学完的，目前为止，只有我一人。（如果你学完了，告诉我，我一定会祝贺你：）
 
 Coursera上还有不少ML相关的课程，包括Geoffrey Hinton的 [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)，我个人感觉并不适合我。
 
