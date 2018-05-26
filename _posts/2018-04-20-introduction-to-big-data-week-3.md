@@ -5,6 +5,8 @@ date: 2018-04-20 20:30:00
 tags: Big Data
 ---
 
+> 第3周的主要内容是，可扩展计算的基本概念，以及，Hadoop相关概念，比如，为什么选择Hadoop；Hadoop的生态系统，包括HDFS、YARN、MapReduce等。
+
 ### Basic Scalable Computing Concepts
 
 The commodity clusters are a cost effective way of achieving data parallel scalability for big data applications.
